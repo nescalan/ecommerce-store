@@ -7,6 +7,7 @@ const initialState = {
 const useInitialState = () => {
   const [state, setState] = useState(initialState);
 
+  //payload: recibe el producto a cambiar (item)
   const addToCart = (payload) => {
     setState({
       ...state,

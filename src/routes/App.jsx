@@ -16,10 +16,10 @@ import { AppContext } from "../store";
 import useInitialState from "../hooks/useInitialState";
 
 const App = () => {
-  const inititalstate = useInitialState();
+  const inititalState = useInitialState();
 
   return (
-    <AppContext.Provider value={inititalstate}>
+    <AppContext.Provider value={inititalState}>
       <BrowserRouter>
         <Layout>
           <Routes>
