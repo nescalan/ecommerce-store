@@ -15,9 +15,18 @@ const useInitialState = () => {
     });
   };
 
+  // payload: Recibe el id del producto a eliminar
+  const removeFromCart = (payload) => {
+    setState({
+      ...state,
+      cart: state.cart.filter((element) => element.id != payload.id),
+    });
+  };
+
   return {
     state,
     addToCart,
+    removeFromCart,
   };
 };
 
