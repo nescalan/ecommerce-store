@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "main.js",
-    publicPath: "/",
+    publicPath: "./",
   },
   mode: "development",
   resolve: {
@@ -59,6 +59,11 @@ module.exports = {
     }),
   ],
   devServer: {
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
+    compress: true,
+    port: 64340,
     historyApiFallback: true,
   },
 };
