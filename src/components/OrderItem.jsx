@@ -19,7 +19,7 @@ const OrderItem = ({ product }) => {
       <p>${product.price}</p>
       <img
         src={iconClose}
-        alt="closeImage"
+        alt="close"
         onClick={() => removeFromCart(product)}
       />
     </div>
