@@ -2,7 +2,7 @@
   "homepage": "https://nescalan.github.io/ecommerce-store/",
   "name": "react-store",
   "version": "1.0.0",
-  "description": "react eshop",
+  "description": "react shop",
   "main": "src/index.js",
   "scripts": {
     "predeploy": "npm run build",
