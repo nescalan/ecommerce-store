@@ -1,6 +1,6 @@
 {
   "homepage": "https://nescalan.github.io/ecommerce-store/",
-  "name": "ecommerce-store",
+  "name": "react-store",
   "version": "1.0.0",
   "description": "react eshop",
   "main": "src/index.js",
